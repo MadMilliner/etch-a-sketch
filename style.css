@@ -1,0 +1,23 @@
+body {
+    background-color: aquamarine;
+}
+
+.etch {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    border: 3px solid #333;
+
+}
+
+.box {
+    background-color: blanchedalmond;
+    border: 1px solid;
+    box-sizing: border-box;
+    width: calc(25% - 2px);
+    height: calc(25% - 2px);
+}
