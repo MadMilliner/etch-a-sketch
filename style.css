@@ -1,23 +1,42 @@
 body {
-    background-color: aquamarine;
-}
+            background-color: aquamarine;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
 
-.etch {
-    background-color: white;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2px;
-    width: 400px;
-    height: 400px;
-    margin: 20px auto;
-    border: 3px solid #333;
+        .etch {
+            display: flex;
+            flex-wrap: wrap;
+            width: 400px;
+            height: 400px;
+            margin: 20px auto;
+            border: 3px solid #333;
+        }
 
-}
+        .box {
+            background-color: blanchedalmond;
+            border: 1px solid #666;
+            box-sizing: border-box;
+            transition: background-color 0.2s;
+            margin: 1px;
+        }
 
-.box {
-    background-color: blanchedalmond;
-    border: 1px solid;
-    box-sizing: border-box;
-    width: calc(25% - 2px);
-    height: calc(25% - 2px);
-}
+        .box:hover {
+            background-color: #ddd;
+        }
+
+        .reset {
+            display: block;
+            margin: 0 auto 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #ff6b6b;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .reset:hover {
+            background-color: #ff5252;
+        }
